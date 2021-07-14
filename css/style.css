@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #202124;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav-links {
+    display: flex;
+    margin-left: 15px;
+}
+.navbar .nav-links li{
+    padding: 5px
+}
+.navbar .nav-links li a:hover{
+    text-decoration: underline;
+}
+.navbar .right-bar {
+    display:flex;
+    padding-top: 10px;
+    
+}
+.navbar .nav-links a > img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.logo-container {
+    width: 272px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.logo-container img {
+    width: 100%;
+}
+.search-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.search-container .label-container {
+    background-color: hotpink;
+    position: relative;
+}
+.search-container label {
+    color:#9aa0a6;
+    position:absolute;
+    bottom: 5px;
+    left:10px;
+}
+.search-container label span {
+    font-size:20px;
+    padding-right: 13px;
+}
+.search-container input {
+    outline: none;
+    border:1px solid #dfe1e5;
+    background-color: transparent; 
+    border-radius: 20px;
+    width: 580px;
+    padding: 10px;
+    padding-left:50px;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+.buttons-container .btn{
+    margin: 11px 4px;
+    padding: 10px 16px;
+    background-color: transparent;
+    border: none;
+}
+.buttons-container .btn:hover {
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+.google-language {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 40px;
+}
+.google-language p{
+    font-size: small;
+}
+.google-language p > a {
+    color: #1c0fab;
+}
+.google-language p > a:hover {
+    text-decoration: underline;
+}
+.footer-container {
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    background-color: wheat;
+}
+.footer-container a {
+    color: #70757a;
+}
+.footer-container a:hover {
+    text-decoration: underline;
+}
+.footer-container .divider{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    background-color: #f2f2f2;
+}
+.footer-container .divider .bottom-links {
+    display: flex;
+}
+.footer-container .divider .bottom-links li {
+    padding-right:15px;
+}
+.footer-container .divider .mid-container{
+    display: flex;
+    align-items: center;
+} 
+.footer-container .divider .mid-container .leaf-image {
+    width: 12px;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+.footer-container .divider .mid-container .leaf-image img {
+    width: 100%;
+}
+
